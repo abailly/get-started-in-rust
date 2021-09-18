@@ -31,7 +31,7 @@ fn handle_connection(mut stream: TcpStream) {
         contents.len(),
         contents
     );
-
+    println!("got a request");
     stream.write(response.as_bytes()).unwrap();
     stream.flush().unwrap();
 }
