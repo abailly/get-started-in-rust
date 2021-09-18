@@ -22,7 +22,7 @@ fn handle_connection(mut stream: TcpStream) {
     <script src=\"script.js\"></script>
   </head>
   <body>
-    <strong>Hello, World!</strong>
+    <strong>Hello, Brave New World!</strong>
   </body>
 </html>";
 
